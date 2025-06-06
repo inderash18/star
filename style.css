@@ -1,0 +1,91 @@
+
+        .inline
+        {
+            display: inline;
+        }
+        .display{
+            display: inline;
+        }
+        .flex-container{
+            display: flex;
+            background-color: rgb(255, 0, 238);
+            padding: 20px; 
+          border: 5px rgb(253, 4, 241);
+          justify-content: space-between;
+          }
+        /*.one{
+               display: flex;
+           padding: 2px;
+            background-color: rgb(118, 5, 238);
+            border: 5px solid black;
+            height: 100px;
+            width: 100px;
+        }
+         .two{
+           
+            background-color: rgb(118, 5, 238);
+            border: 5px solid black;
+            padding: 2px;
+            height: 100px;
+            width: 100px;
+         }
+        .three{
+           
+            background-color: rgb(118, 5, 238);
+            border: 5px solid black;
+            height: 100px;
+            padding:55;
+            width: 100px;
+       
+        } */
+         .flex-container div{
+            background-color: black;
+            border:10px solid rgb(42, 5, 252);
+            height: 100px;
+            width: 100px;
+
+         }  
+         nav{
+            display: flex;
+            background-color: aqua;
+          color: blue;
+            
+            border: 20px;
+            justify-content:center;
+            font-size: 30px;
+            gap: 10px
+         }         
+nav :hover{
+    background-color:burlywood
+
+}
+.and {
+    display: flex;
+    background-color: rgb(85, 8, 250);
+    justify-content:space-evenly;
+    font-size: 50px;
+}
+.grid-container{
+    display: grid;
+    grid-template-rows: 50px 50px 50px 50px;
+    grid-template-columns: 50px 50px 50px; 
+    background-color: rgb(238, 10, 10);
+    justify-content: center;
+    row-gap: 5px;
+    column-gap: 5px;
+}
+.grid-container div{
+    border: 3px solid rgb(118, 5, 231);
+
+} 
+.one{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+@media (max-width:460px){
+    .media{
+        display: flex;
+        flex-direction: column;
+        color: aqua;
+    }
+}
